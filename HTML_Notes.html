@@ -57,13 +57,18 @@
 
 </table>
 
-<form class="" action="mailto:shaheershoaib11@gmail.com" method="post"> <!-- Creates a form. Actions defines what should happen once the form is complete. For example, mailto:name@email.com will open an open with the texts used in the description. Try it out -->
+<form class="" action="mailto:shaheershoaib11@gmail.com" method="post" enctype="text/plain"> <!-- Creates a form. Actions defines what should happen once the form is complete. For example, mailto:name@email.com will open an open with the texts used in the description. Try it out -->
   <label>Your Name:</label> <!-- Name that is place before the field -->
-  <input type="text" name="Name" value="" enctype = "text/plain"> <!-- What gets used as input. Name defines essentially the variable that holds whatever is added in. Make sure to specify text/plain as enctype-->
+  <input type="text" name="Name" value=""> <!-- What gets used as input. Name defines essentially the variable that holds whatever is added in. Make sure to specify text/plain as enctype-->
+<br></br>
+<label>Your Message:</label>
+<br>
+<textarea name="Message" rows="15" cols="30"></textarea> <!-- Create an adjustable text bo -->
+
 <br></br>
 <label>Can I contact you on weekends?</label>
 
-<input type="checkbox" name="Can Contact On Weekends" value="Yes" enctype = "text/plain"> <!-- Creates checkbox. Value will do the following: Can Contact On Weekends=Yes -->
+<input type="checkbox" name="Can Contact On Weekends" value="Yes" enctype = > <!-- Creates checkbox. Value will do the following: Can Contact On Weekends=Yes -->
 <br></br>
 <input type="submit" name=""> <!-- Creates a submit button. Remove the value attribute.-->
 
